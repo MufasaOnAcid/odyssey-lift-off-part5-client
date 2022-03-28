@@ -5,7 +5,7 @@ import Pages from "./pages";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-	uri: "https://mufasas-catronauts.herokuapp.com/",
+	uri: "https://mufasas-catronauts-server.herokuapp.com/",
 	cache: new InMemoryCache(),
 });
 
